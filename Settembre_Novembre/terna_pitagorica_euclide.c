@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
     int massimo;
     int cateto1, cateto2, ipotenusa;
@@ -24,4 +24,5 @@ main()
                 }
             }
     printf("Iterazioni: %d\n", iterazioni);
+return 0;
 }
